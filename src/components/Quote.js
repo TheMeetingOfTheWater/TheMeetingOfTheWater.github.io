@@ -6,6 +6,7 @@ class Quote extends React.Component {
             <div className="quote">
                 <p className="text">{this.props.text}</p>
                 <p className="credit>">{this.props.credit}</p>
+                <br />
             </div>
         );
     }
