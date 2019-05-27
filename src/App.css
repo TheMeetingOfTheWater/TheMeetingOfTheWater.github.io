@@ -1,0 +1,68 @@
+html body { 
+  overflow-y: hidden; 
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(252, 252, 252)!important;
+  border-radius: 0;
+}
+
+body {
+  position:relative;
+}
+
+.chapter div.quote {
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.chapter div.quote p.text {
+  font-style: italic;  
+  font-weight:600;
+  margin-bottom:2px;
+}
+
+.chapter div.quote p.credit {
+  font-weight:500;
+  font-size:13px;
+}
+
+h1 {
+  text-align:center;
+}
+
+.centered {
+  text-align:center;
+}
+
+.blue {
+  color: #2f5496;
+}
+
+
+
+.column {
+  margin-bottom:0px!important;
+}
+
+.mini-header {
+  margin-top:1vh!important;
+}
+
+.scrollable {
+  height: 100%;
+  padding-right:1vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height:90.5vh;
+  max-height:90.5vh;  
+}
+.justified {
+  text-align:justify;
+}
+
+.main {
+  padding-top:10px;
+}
