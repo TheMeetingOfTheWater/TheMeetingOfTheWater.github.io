@@ -8,6 +8,7 @@ import ChapterFive from "./ChapterFive";
 import ChapterSix from "./ChapterSix";
 import ChapterSeven from "./ChapterSeven";
 import ChapterEight from "./ChapterEight";
+import ChapterNine from "./ChapterNine";
 
 const Chapters = [
     new Chapter("/1", ChapterOne),
@@ -17,7 +18,8 @@ const Chapters = [
     new Chapter("/5", ChapterFive),
     new Chapter("/6", ChapterSix),
     new Chapter("/7", ChapterSeven),
-    new Chapter("/8", ChapterEight)
+    new Chapter("/8", ChapterEight),
+    new Chapter("/9", ChapterNine)
 ];
 
 export default Chapters;

@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-import { Container, Button, Header, Image, Modal } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Cover from "./Cover";
